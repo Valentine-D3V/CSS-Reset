@@ -11,3 +11,17 @@
 - Once you start designing and coding all of the fine details of your site, you may discover that a lot of what you are doing is simply overriding default browser styles. The reset does this quickly so that you don't have to.
 - This will save you a lot time and frustration when you are creating complicated layouts with CSS.
 - You're the designer. You shouldn't let the browser makers decide how any part of your web pages will look.
+
+
+<h2>Code Snippets</h2>
+
+```
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+```
